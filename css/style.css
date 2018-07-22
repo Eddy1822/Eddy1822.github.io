@@ -32,8 +32,9 @@ h1, h2, h3 {
   margin-top: 10px;
 }
 
-.stateTitle {
+.stateTitle, .yearTitle {
   text-align: center;
+  margin-top: 2.5rem;
 }
 
 .BajaCaliforniaMexico {
