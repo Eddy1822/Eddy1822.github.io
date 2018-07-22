@@ -1,9 +1,15 @@
+// Hiding Titles & Years until called upon
+$(".stateTitle").hide();
+$(".yearTitle").hide();
+
 // Button Functions
 
-$(".byState").click( function(){
-
+$(".byStateBtn").click( function(){
+  $(".yearTitle").hide();
+  $(".stateTitle").show();
 });
 
-$(".byYear").click( function(){
-    
+$(".byYearBtn").click( function(){
+  $(".stateTitle").hide();
+  $(".yearTitle").show();
 });
