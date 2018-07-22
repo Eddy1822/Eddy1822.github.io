@@ -13,13 +13,6 @@ h1, h2, h3 {
   color: white;
 }
 
-/* img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  margin: 5px;
-} */
-
 /* Class Selctors */
 
 .myphotos {
@@ -30,4 +23,25 @@ h1, h2, h3 {
 
 .topTitle {
   margin-bottom: .5em;
+}
+
+.byState, .byYear {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* ID Selectors */
+
+#arrangeText {
+  margin-bottom: .5em;
+}
+
+/* Media Quereies */
+
+@media (min-width: 576px) {
+  .byState, .byYear {
+    display: inline;
+  }
 }
