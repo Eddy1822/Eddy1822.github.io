@@ -1,4 +1,33 @@
+/* Type Selectors */
+
+header {
+  text-align: center;
+  margin: 2em;
+}
+
+body {
+  background-color: black;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+/* img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+} */
+
+/* Class Selctors */
+
 .myphotos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topTitle {
+  margin-bottom: .5em;
 }
