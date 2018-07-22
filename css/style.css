@@ -1,0 +1,4 @@
+.myphotos {
+  display: flex;
+  flex-wrap: wrap;
+}

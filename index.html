@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Edaurdo's Travels</title>
+    <!-- Required bootstrap meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrp CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- My own CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- My title -->
+    <title>Edaurdo's Travels</title>
   </head>
   <body>
     <header>
       <h1>My Travels</h1>
+
+      <!-- Photos Buttons -->
+      <h2>Arrange Photos:</h2>
+      <button type="button" class="btn btn-outline-info">By State?</button>
+      <button type="button" class="btn btn-outline-danger">By Year?</button>
     </header>
-    <!-- Photos Button -->
-    <h2>Photos by Date?</h2>
-    <h2>Photos by State?</h2>
-    <!-- Photo's By State -->
-    <div>
-      
+
+    <!-- Photos Arranged By State-->
+    <div class="myphotos">
+      <div><img src="img/LouisvilleAtNight.jpg" alt="Louisville At Night" class="Kentucky " height="200" width="300"></div>
+      <div><img src="img/kansasCity.jpg" alt="Overlook of Kansas City" class="Missouri" height="200" width="250"></div>
+      <div><img src="img/grandCanyonSitting.jpg" alt="Photo overlooking the Grand Canyon" class="Arizona" height="200" width="300"></div>
+      <div><img src="img/nycBayView.jpg" alt="New York City view from the Bay" class="New York" height="200" width="300"></div>
+      <div><img src="img/TijuanaSign.jpg" alt="Photo of the Tijuana sign under the arch" class="Baja California Mexico" height="200" width="300"></div>
+      <div><img src="img/mcFeeKnobSitting.jpg" alt="Overlook from McAfee Knob mountain" class="Virginia" height="200" width="250"></div>
+      <div><img src="img/WhiteHouse.jpg" alt="Photo taken of the White House" class="Washington DC" height="200" width="300"></div>
+      <div><img src="img/losAngelesOverlook.jpg" alt="City view of Loas Angeles" class="California" height="200" width="300"></div>
+      <div><img src="img/chicagoFromMilliniam.jpg" alt="City view of Chicago from milliam park" class="Illinois" height="200" width="400"></div>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/app.js"></script>
+
+    <!-- Bootstrap Srcipts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!-- My own JS -->
+    <script src="js/apps.js"></script>
   </body>
 </html>
